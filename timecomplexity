@@ -1,0 +1,2 @@
+O(1)         <       O(log N)       <        O(N)        <       O(N log N)       <      O(N²)
+Constant            Logarithmic            Linear              Linearithmic              Quadratic

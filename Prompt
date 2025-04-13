@@ -1,0 +1,18 @@
+Give me a C++ template with:
+- Problem statement as a comment at the top
+- No approach or solution explained
+- A clean function with only the signature and empty logic
+- A sample main() function to call and print the result
+
+Problem:
+[Paste your problem here]
+
+Give me a C++ program with:
+- Problem statement as a comment at the top
+- Clearly explained in detail smultiple approaches if exist (Brute Force, Better, Optimal) with time and space complexity
+- Clean and complete code implementations for each approach
+- A sample main() function to test all approaches
+- All approaches grouped together just below the question
+-  All solutions grouped together below the approaches
+Problem:
+[Paste your problem here]

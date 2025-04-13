@@ -1,6 +1,39 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
+
+/*
+    🔸 STL Map in C++ - Time Complexities
+    (for ordered map<Key, T> → implemented as Red-Black Tree)
+
+    ✅ Insertion (mp[key] = value or insert()):       O(log N)
+    ✅ Access (mp[key] or find()):                    O(log N)
+    ✅ Deletion (erase()):                            O(log N)
+    ✅ Search (find(), count()):                      O(log N)
+    ✅ Traversal (using for-loop):                    O(N)
+    ✅ Size (size()), Empty check (empty()):          O(1)
+    ✅ Clearing entire map (clear()):                 O(N)
+*/
+
+/*
+    🔸 STL Unordered Map in C++ - Time Complexities
+    (for unordered_map<Key, T> → implemented using Hash Table)
+
+    ✅ Insertion (ump[key] = value or insert()):       O(1) average, O(N) worst case
+    ✅ Access (ump[key] or find()):                    O(1) average, O(N) worst case
+    ✅ Deletion (erase()):                             O(1) average, O(N) worst case
+    ✅ Search (find(), count()):                       O(1) average, O(N) worst case
+    ✅ Traversal (using for-loop):                     O(N)
+    ✅ Size (size()), Empty check (empty()):           O(1)
+    ✅ Clearing entire unordered_map (clear()):        O(N)
+
+    ⚠️ Note:
+    - Worst-case time occurs due to hash collisions.
+    - unordered_map does NOT maintain any order of keys.
+    - For large datasets where ordering is not needed, unordered_map is generally faster.
+*/
+
 int main() {
     cout << "🌟 STL Map in C++ - Most Common Uses\n\n";
 
@@ -50,9 +83,9 @@ int main() {
     idName[103] = "Charlie";
 
     cout << "\nMap with integer keys:\n";
-    // for (auto [id, name] : idName) {
-    //     cout << id << " -> " << name << "\n";
-    // }
+    for (auto it : idName) {
+        cout << it.first << " -> " << it.second << "\n";
+    }
 
     // ✅ Custom Sorting (Descending Order by Key)
     map<int, string, greater<int>> descMap;

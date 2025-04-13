@@ -1,6 +1,19 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+/*
+    🔸 STL Vector in C++ - Time Complexities
+
+    ✅ Declaration:                        O(1)
+    ✅ push_back():                        Amortized O(1)
+    ✅ pop_back():                         O(1)
+    ✅ size(), empty(), front(), back():   O(1)
+    ✅ clear():                            O(N)
+    ✅ at(index), v[index]:                O(1)
+    ✅ Traversing / Iteration:             O(N)
+    ✅ Insert/Delete in middle (insert/erase): O(N) (since elements may shift)
+*/
+
 int main() {
     cout << "🌟 STL for DSA - All In One\n\n";
 
@@ -33,7 +46,6 @@ int main() {
     cout << "Element at index 0 using at(): " << v.at(0) << endl;
 
     // ✅ Looping Through a Vector
-
     cout << "\nUsing traditional for loop:" << endl;
     for (int i = 0; i < v.size(); ++i)
         cout << v[i] << " ";
