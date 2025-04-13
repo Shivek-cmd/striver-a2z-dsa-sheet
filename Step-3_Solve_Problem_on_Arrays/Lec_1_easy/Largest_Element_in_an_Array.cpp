@@ -2,6 +2,15 @@
 using namespace std;
 
 /*
+    🔸 Question:
+    Write a function to return the largest element in a given array.
+
+    Example:
+    Input:  [3, 8, 1, 99, 12, 7]
+    Output: 99
+*/
+
+/*
     ✅ Function to return the largest element in the array
 
     1. BRUTE FORCE APPROACH:

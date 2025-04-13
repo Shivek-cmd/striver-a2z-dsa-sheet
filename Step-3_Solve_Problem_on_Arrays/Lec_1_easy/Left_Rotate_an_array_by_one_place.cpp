@@ -2,6 +2,17 @@
 using namespace std;
 
 /*
+    🔸 Question:
+    Write a function to left rotate an array by one place.
+
+    Example:
+    Input:  [1, 2, 3, 4, 5]
+    Output: [2, 3, 4, 5, 1]
+
+    Rotation must be done in-place if possible.
+*/
+
+/*
     ✅ Left Rotate an Array by One Place
 
     1. BRUTE FORCE APPROACH:

@@ -1,6 +1,17 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
+/*
+    🔸 Question:
+    Write a function to left rotate an array by D places.
+
+    Example:
+    Input:  arr = [1, 2, 3, 4, 5, 6, 7], d = 2
+    Output: [3, 4, 5, 6, 7, 1, 2]
+
+    The rotation should be in-place with minimal extra space if possible.
+*/
 /*
     ✅ Left Rotate an Array by D Places
 

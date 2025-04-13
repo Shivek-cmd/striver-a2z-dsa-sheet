@@ -1,6 +1,15 @@
 #include <bits/stdc++.h>
 using namespace std;
+/*
+    🔸 Question:
+    Write a function to return the second largest element in a given array.
 
+    Example:
+    Input:  [1, 2, 4, 7, 7, 5]
+    Output: 5
+
+    If no second largest exists (e.g., all elements are the same or array size < 2), return -1.
+*/
 /*
     ✅ Function to return the second largest element in the array
 

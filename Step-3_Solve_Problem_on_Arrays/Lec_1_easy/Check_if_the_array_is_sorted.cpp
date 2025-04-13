@@ -2,6 +2,16 @@
 using namespace std;
 
 /*
+    🔸 Question:
+    Write a function to check if a given array is sorted in non-decreasing order.
+
+    Example:
+    Input:  [1, 2, 3, 4, 5]
+    Output: true
+
+    Input:  [1, 3, 2, 4]
+    Output: false
+
     ✅ Function to check if the array is sorted in non-decreasing order
 
     Approach:

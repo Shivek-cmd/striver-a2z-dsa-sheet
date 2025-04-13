@@ -1,6 +1,19 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
+/*
+    🔸 Question:
+    Write a function to remove duplicates from a **sorted array** in-place
+    and return the number of unique elements.
+
+    Example:
+    Input:  [1, 1, 2, 2, 3, 4, 4]
+    Output: 4
+    Modified array: [1, 2, 3, 4, _, _, _]
+
+    Only the first part of the array needs to be correct — after removing duplicates.
+*/
 /*
     ✅ Remove duplicates from a sorted array
 
