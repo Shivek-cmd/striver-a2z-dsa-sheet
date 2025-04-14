@@ -1,5 +1,40 @@
 #include <bits/stdc++.h>
 using namespace std;
+/*
+    ✅ Insertion (set.insert() or set[key] = value):        O(log N)
+    ✅ Access (set.find()):                                  O(log N)
+    ✅ Deletion (set.erase()):                               O(log N)
+    ✅ Search (set.find() or set.count()):                   O(log N)
+    ✅ Traversal (using for-loop):                           O(N)
+    ✅ Size (size()):                                        O(1)
+    ✅ Empty check (empty()):                                O(1)
+    ✅ Clearing entire set (clear()):                        O(N)
+    
+    🔹 **Notes**:
+    - `set` is an ordered collection of unique keys.
+    - Operations like insert, delete, and search are logarithmic due to the underlying Red-Black tree structure.
+    - Traversal is linear (`O(N)`), as it needs to visit each element in the set.
+    - `set` is slower than `unordered_set` for search and insertion on average because of the tree structure but maintains a sorted order.
+    - `find()` and `count()` return the same result and are used for checking if an element exists.
+
+
+    /*
+    ✅ Insertion (unordered_set.insert()):       O(1) average, O(N) worst case
+    ✅ Access (unordered_set.find()):            O(1) average, O(N) worst case
+    ✅ Deletion (unordered_set.erase()):         O(1) average, O(N) worst case
+    ✅ Search (unordered_set.find() or unordered_set.count()): O(1) average, O(N) worst case
+    ✅ Traversal (using for-loop):               O(N)
+    ✅ Size (size()):                            O(1)
+    ✅ Empty check (empty()):                    O(1)
+    ✅ Clearing entire unordered_set (clear()):  O(N)
+
+    🔹 **Notes**:
+    - `unordered_set` does not maintain any order of keys.
+    - Insertion, deletion, and search are **faster** on average compared to `set` because of hash-based implementation.
+    - **Worst-case** time complexity can be O(N) due to hash collisions, but this is uncommon in practice.
+    - If the order of elements is not important, `unordered_set` is preferred as it generally provides better performance.
+
+*/
 
 int main() {
     cout << "🌟 STL Set in C++ - Most Common Uses\n\n";

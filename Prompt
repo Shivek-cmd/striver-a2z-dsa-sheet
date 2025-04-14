@@ -9,7 +9,7 @@ Problem:
 
 Give me a C++ program with:
 - Problem statement as a comment at the top
-- Clearly explained in detail smultiple approaches if exist (Brute Force, Better, Optimal) with time and space complexity
+- Clearly explained in detail smultiple approaches if exist (Brute Force, Better, Optimal) with time and space complexity. You can also improve my approach if anything wrong.
 - Clean and complete code implementations for each approach
 - A sample main() function to test all approaches
 - All approaches grouped together just below the question
