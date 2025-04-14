@@ -117,7 +117,7 @@ bool checkPairSum_TwoPointer(vector<int>& arr, int target) {
         - **Time Complexity**: O(N^2)
         - **Space Complexity**: O(1)
 
-    🔹 **Approach 2**: Better with Hashing
+    🔹 **Approach 2**: Better with Hashing (most optimal one)
         - Use an unordered map to store the elements we’ve seen so far along with their indices.
         - For each element, check if the complement (`target - arr[i]`) exists in the map. If it does, return the indices of the complement and the current element.
         - **Time Complexity**: O(N)
@@ -173,27 +173,35 @@ vector<int> findPairIndices_Hashing(vector<int>& arr, int target) {
 
 vector<int> findPairIndices_TwoPointer(vector<int>& arr, int target) {
     if (arr.size() < 2) return {-1, -1}; // Check for valid array size
-    vector<pair<int, int>> originalArr(arr.size());
+    
+    vector<pair<int, int>> pairs; // Create a vector of pairs (value, original index)
     for (int i = 0; i < arr.size(); i++) {
-        originalArr[i] = {arr[i], i}; // Store element and its index
+        pairs.push_back({arr[i], i});
     }
-    sort(originalArr.begin(), originalArr.end()); // Sort by element value
 
-    int left = 0, right = arr.size() - 1;
+    // Sort the pairs based on the values (arr[i]) but keep track of original indices
+    sort(pairs.begin(), pairs.end(), [](const pair<int, int>& a, const pair<int, int>& b) {
+        return a.first < b.first;
+    });
+
+    // Use two-pointer technique to find the pair that sums up to the target
+    int left = 0;
+    int right = arr.size() - 1;
+
     while (left < right) {
-        int sum = originalArr[left].first + originalArr[right].first;
+        int sum = pairs[left].first + pairs[right].first;
         if (sum == target) {
-            int idx1 = originalArr[left].second;
-            int idx2 = originalArr[right].second;
-            return {min(idx1, idx2), max(idx1, idx2)}; // Return indices in ascending order
+            return {pairs[left].second, pairs[right].second};  // Return the original indices
         } else if (sum < target) {
             left++;
         } else {
             right--;
         }
     }
-    return {-1, -1};
+
+    return {-1, -1}; // No valid pair found
 }
+
 int main() {
     // Sample Input
     vector<int> arr = {2, 6, 5, 8, 11};
