@@ -41,6 +41,8 @@ Approaches to solve the problem:
         At any point, a subarray can either continue growing or it can be beneficial to discard it and start a new subarray. 
         If the sum of the current subarray becomes negative, adding more elements to it will only decrease the overall sum.
         Therefore, we reset the subarray and start fresh from the next element.
+        suppose there's an array in which two subarrays are below
+        WHICH ARRAY IS BETTER [-1,2,3] or [2,3] obviously second one that's why we ignore the subarray which is reducing the sum
         
    - We traverse the array once and keep track of the maximum sum of the subarray ending at the current element.
    - If the current sum becomes negative, we reset it to zero since starting from the next element will be more beneficial.
