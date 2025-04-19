@@ -3,14 +3,18 @@ Give me a C++ template with:
 - No approach or solution explained
 - A clean function with only the signature and empty logic
 - A sample main() function to call and print the result
+- Always use #include <bits/stdc++.h>
 
 Problem:
 [Paste your problem here]
 
 Give me a C++ program with:
 - Problem statement as a comment at the top
-- Clearly explained in detail smultiple approaches if exist (Brute Force, Better, Optimal) with time and space complexity. You    can also improve my approach if anything wrong(if i have provided). 
+- Clearly explained in detail smultiple approaches if exist (Brute Force, Better, Optimal) 
+- Provide time and space complexity for each step of algo and give total time complexity.
+- You can also improve my approach if anything wrong(if i have provided). 
 - Focus heavily on the thought process behind the optimal approach, explaining the logic and why it’s efficient.
+- Write the thought process behind the algo first then write the algo/optimal Approach.
 - Clean and complete code implementations for each approach
 - Provide clean and complete code implementations for each approach, with readable variable names, consistent formatting, and  inline comments explaining key logic.
 - A sample main() function to test all approaches
