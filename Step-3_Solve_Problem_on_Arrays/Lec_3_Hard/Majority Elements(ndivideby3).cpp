@@ -185,9 +185,9 @@ int main() {
     }
     cout << "\n";
       // Test Better BETTER Approach (HashMap)
-    vector<int> ansOptimal = majorityElementBetterBetter(arr);
+    vector<int> ansBetterBetter = majorityElementBetterBetter(arr);
     cout << "Optimal Approach Majority Elements: ";
-    for (auto it : ansOptimal) {
+    for (auto it : ansBetterBetter) {
         cout << it << " ";
     }
     cout << "\n";
@@ -201,35 +201,3 @@ int main() {
 
     return 0;
 }
-
-/*
------------------------------------------------------
-Problem Statement:
------------------------------------------------------
-    - Given an integer array, find all the elements that appear more than n/3 times in the array.
-    - Majority elements are those that appear more than n/3 times in the array.
-
------------------------------------------------------
-Approach 1: Brute Force
------------------------------------------------------
-    - Traverse the array and for each element, count its occurrences.
-    - Compare its count with n/3 and push the element into the result vector if it satisfies the condition.
-    - Time Complexity: O(n^2)
-    - Space Complexity: O(1)
-
------------------------------------------------------
-Approach 2: Better Approach (Using HashMap)
------------------------------------------------------
-    - Use a hash map to count occurrences of each element.
-    - Iterate through the map and check if any element has a count greater than n/3.
-    - Time Complexity: O(n)
-    - Space Complexity: O(n)
-
------------------------------------------------------
-Approach 3: Optimal Approach (Boyer-Moore Voting Algorithm)
------------------------------------------------------
-    - Use the Boyer-Moore voting algorithm to find at most two majority elements.
-    - In the first pass, select two potential majority elements. In the second pass, count their occurrences.
-    - Time Complexity: O(n)
-    - Space Complexity: O(1)
-*/
