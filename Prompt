@@ -7,19 +7,82 @@ Give me a C++ template with:
 
 Problem:
 [Paste your problem here]
+PROMPT 2:- 
 
-Give me a C++ program with:
-- Problem statement as a comment at the top
-- Clearly explained in detail smultiple approaches if exist (Brute Force, Better, Optimal) 
-- Provide time and space complexity for each step of algo and give total time complexity.
-- You can also improve my approach if anything wrong(if i have provided). 
-- Focus heavily on the thought process behind the optimal approach, explaining the logic and why it’s efficient.
-- Write the thought process behind the algo first then write the algo/optimal Approach.
-- Clean and complete code implementations for each approach
-- Provide clean and complete code implementations for each approach, with readable variable names, consistent formatting, and  inline comments explaining key logic.
-- A sample main() function to test all approaches
-- All approaches grouped together just below the question
--  All solutions grouped together below the approaches
-- Write in code format my file is .cpp
-Problem:
-[Paste your problem here]
+
+Provide a C++ program that solves the given problem. Follow the structure below to ensure clarity and coverage of all important aspects:
+
+Problem Statement: Include the problem description as a comment at the top.
+
+Multiple Approaches: Include all possible approaches (Brute Force, Better, Optimal).
+
+For each approach, provide a detailed explanation of the logic.
+
+Discuss the time and space complexity for each approach.
+
+Focus heavily on the thought process behind the optimal approach and explain why it is efficient.
+
+If there are improvements to your approach, include them.
+
+Code Implementation:
+
+Provide a clean, complete, and readable code implementation for each approach.
+
+Use consistent formatting, descriptive variable names, and inline comments explaining key logic.
+
+Testing: Include a sample main() function to test all approaches.
+
+Structure:
+
+All approaches should be grouped together just below the problem statement.
+
+All code solutions should be grouped together below the approach explanations.
+
+#include <iostream>
+using namespace std;
+
+/* 
+-----------------------------------------------------
+Problem Statement:
+-----------------------------------------------------
+    - [Paste your problem here]
+
+-----------------------------------------------------
+Approach 1: Brute Force
+-----------------------------------------------------
+    - [Detailed explanation of the brute force approach]
+    - Time Complexity: [Time complexity of brute force]
+    - Space Complexity: [Space complexity of brute force]
+
+-----------------------------------------------------
+Approach 2: Better Approach
+-----------------------------------------------------
+    - [Detailed explanation of the better approach]
+    - Time Complexity: [Time complexity of better approach]
+    - Space Complexity: [Space complexity of better approach]
+
+-----------------------------------------------------
+Approach 3: Optimal Approach
+-----------------------------------------------------
+    - [Detailed explanation of the optimal approach]
+    - Time Complexity: [Time complexity of optimal approach]
+    - Space Complexity: [Space complexity of optimal approach]
+
+*/
+
+// Code for Approach 1: Brute Force
+// [Write code for brute force approach]
+
+// Code for Approach 2: Better Approach
+// [Write code for better approach]
+
+// Code for Approach 3: Optimal Approach
+// [Write code for optimal approach]
+
+// Sample main function to test all approaches
+int main() {
+    // Test the brute force approach
+    // Test the better approach
+    // Test the optimal approach
+    return 0;
+}
