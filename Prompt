@@ -7,82 +7,65 @@ Give me a C++ template with:
 
 Problem:
 [Paste your problem here]
-PROMPT 2:- 
+============================================================================== C++ Program Structure for Algorithmic Problem Solving ==============================================================================
 
+Objective:
+    Provide a complete C++ program to solve a specified algorithmic problem, 
+    demonstrating multiple solution approaches with detailed explanations, 
+    complexity analysis, and thorough testing.
 
-Provide a C++ program that solves the given problem. Follow the structure below to ensure clarity and coverage of all important aspects:
+Instructions:
+    1. Select a well-defined algorithmic problem (e.g., sorting, searching, dynamic 
+       programming, graph traversal).
+    2. Follow the structure below to ensure clarity, readability, and comprehensive 
+       coverage.
+    3. Use proper indentation (4 spaces per level) and consistent formatting.
+    4. Include inline comments to explain key logic and improve code maintainability.
+    5. Ensure the code handles edge cases (e.g., empty inputs, negative numbers) and 
+       provides clear input/output formats.
+    6. Write modular, reusable code with descriptive variable names and minimal 
+       redundancy.
 
-Problem Statement: Include the problem description as a comment at the top.
+==============================================================================
+Section 1: Problem Statement
+==============================================================================
+    - Provide a concise description of the problem as a comment.
+    - Include example inputs and outputs to illustrate the problem.
+    - Specify constraints (e.g., input size, value ranges) and edge cases.
 
-Multiple Approaches: Include all possible approaches (Brute Force, Better, Optimal).
+==============================================================================
+Section 2: Solution Approaches
+==============================================================================
+    - Describe  approaches: Brute Force, Better, and Optimal whatever i have mentioned.
+    - For each approach:
+        a. Explain the logic in detail, including the thought process.
+        b. Outline the steps or algorithm in pseudocode or prose.
+        c. Analyze time and space complexity with justification.
+        d. Discuss limitations or trade-offs.
+    - For the Optimal Approach:
+        - Emphasize why it is the most efficient (e.g., reduced iterations, better data 
+          structures).
 
-For each approach, provide a detailed explanation of the logic.
+==============================================================================
+Section 3: Code Implementation
+==============================================================================
+    - Provide complete, clean, and readable C++ code for each approach.
+    - Use separate functions for each approach to ensure modularity.
+    - Include inline comments to explain critical logic.
+    - Follow C++ best practices (e.g., const correctness, avoid global variables).
+    - Handle edge cases and validate inputs where applicable.
 
-Discuss the time and space complexity for each approach.
+==============================================================================
+Section 4: Testing
+==============================================================================
+    - Include a main() function to test all approaches.
+    - Test cases should cover:
+        - Typical cases (e.g., standard input as per examples).
+        - Edge cases (e.g., empty input, single element, all negative values).
+        - Large inputs to verify performance (if feasible).
+    - Display results clearly, labeling the output of each approach.
 
-Focus heavily on the thought process behind the optimal approach and explain why it is efficient.
-
-If there are improvements to your approach, include them.
-
-Code Implementation:
-
-Provide a clean, complete, and readable code implementation for each approach.
-
-Use consistent formatting, descriptive variable names, and inline comments explaining key logic.
-
-Testing: Include a sample main() function to test all approaches.
-
-Structure:
-
-All approaches should be grouped together just below the problem statement.
-
-All code solutions should be grouped together below the approach explanations.
-
-#include <iostream>
-using namespace std;
-
-/* 
------------------------------------------------------
-Problem Statement:
------------------------------------------------------
-    - [Paste your problem here]
-
------------------------------------------------------
-Approach 1: Brute Force
------------------------------------------------------
-    - [Detailed explanation of the brute force approach]
-    - Time Complexity: [Time complexity of brute force]
-    - Space Complexity: [Space complexity of brute force]
-
------------------------------------------------------
-Approach 2: Better Approach
------------------------------------------------------
-    - [Detailed explanation of the better approach]
-    - Time Complexity: [Time complexity of better approach]
-    - Space Complexity: [Space complexity of better approach]
-
------------------------------------------------------
-Approach 3: Optimal Approach
------------------------------------------------------
-    - [Detailed explanation of the optimal approach]
-    - Time Complexity: [Time complexity of optimal approach]
-    - Space Complexity: [Space complexity of optimal approach]
-
-*/
-
-// Code for Approach 1: Brute Force
-// [Write code for brute force approach]
-
-// Code for Approach 2: Better Approach
-// [Write code for better approach]
-
-// Code for Approach 3: Optimal Approach
-// [Write code for optimal approach]
-
-// Sample main function to test all approaches
-int main() {
-    // Test the brute force approach
-    // Test the better approach
-    // Test the optimal approach
-    return 0;
-}
+WRITE EVERYTHING IN CODE FORMAT (.cpp)
+==============================================================================
+Code Structure
+==============================================================================
