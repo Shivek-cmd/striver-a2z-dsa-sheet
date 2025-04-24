@@ -55,15 +55,6 @@ Section 3: Code Implementation
     - Follow C++ best practices (e.g., const correctness, avoid global variables).
     - Handle edge cases and validate inputs where applicable.
 
-==============================================================================
-Section 4: Testing
-==============================================================================
-    - Include a main() function to test all approaches.
-    - Test cases should cover:
-        - Typical cases (e.g., standard input as per examples).
-        - Edge cases (e.g., empty input, single element, all negative values).
-        - Large inputs to verify performance (if feasible).
-    - Display results clearly, labeling the output of each approach.
 
 WRITE EVERYTHING IN CODE FORMAT (.cpp)
 ==============================================================================
