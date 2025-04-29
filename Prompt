@@ -15,15 +15,16 @@ Objective:
     complexity analysis, and thorough testing.
 
 Instructions:
-    1. Select a well-defined algorithmic problem (e.g., sorting, searching, dynamic 
+    1. Write the observations of the question before starting with algorithm
+    2. Select a well-defined algorithmic problem (e.g., sorting, searching, dynamic 
        programming, graph traversal).
-    2. Follow the structure below to ensure clarity, readability, and comprehensive 
+    3. Follow the structure below to ensure clarity, readability, and comprehensive 
        coverage.
-    3. Use proper indentation (4 spaces per level) and consistent formatting.
-    4. Include inline comments to explain key logic and improve code maintainability.
-    5. Ensure the code handles edge cases (e.g., empty inputs, negative numbers) and 
+    4. Use proper indentation (4 spaces per level) and consistent formatting.
+    5. Include inline comments to explain key logic and improve code maintainability.
+    6. Ensure the code handles edge cases (e.g., empty inputs, negative numbers) and 
        provides clear input/output formats.
-    6. Write modular, reusable code with descriptive variable names and minimal 
+    7. Write modular, reusable code with descriptive variable names and minimal 
        redundancy.
 
 ==============================================================================
