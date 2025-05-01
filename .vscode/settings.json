@@ -17,6 +17,7 @@
         "chrono": "cpp",
         "algorithm": "cpp",
         "utility": "cpp",
-        "functional": "cpp"
+        "functional": "cpp",
+        "iomanip": "cpp"
     }
 }
