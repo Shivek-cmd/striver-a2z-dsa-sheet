@@ -18,6 +18,7 @@
         "algorithm": "cpp",
         "utility": "cpp",
         "functional": "cpp",
-        "iomanip": "cpp"
+        "iomanip": "cpp",
+        "new": "cpp"
     }
 }
